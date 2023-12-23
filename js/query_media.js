@@ -25,6 +25,7 @@ function changeHTML(x) {
         document.getElementById("header").innerHTML = header_for_PC;
     //  Thay đổi html trong phần main
         document.getElementById("main").innerHTML = main_for_PC;
+        document.getElementById("main").style.marginTop = '6px';
     }
   }
 
