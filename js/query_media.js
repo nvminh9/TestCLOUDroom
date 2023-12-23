@@ -17,6 +17,7 @@ function changeHTML(x) {
         document.getElementById("header").innerHTML = header_for_mobile_tablet;
     //  Thay đổi html trong phần main
         document.getElementById("main").innerHTML = main_for_mobile_tablet;
+        document.getElementById("main").style.marginTop = '2px';
 
     } else { //             NẾU LÀ MÀN HÌNH MÁY TÍNH
 
