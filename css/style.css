@@ -19,21 +19,31 @@ body{
 
 }
 /*              HOME SITE               */
-/* Header */
-.logo{
-    margin-top: 30px;
-    background-color: black;
-    padding: 20px;
-    border-radius: 5px;
-}
-.logo a{
-    height: 100%;
-    display: block;
-}
-.logo img{
-    width: 100%;
-}
-/* Sidebar */
+/*      Header       */
+    /* Logo */
+    .logo{
+        margin-top: 30px;
+        background-color: black;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    .logo a{
+        height: 100%;
+        display: block;
+    }
+    .logo img{
+        /* width: 10%; */
+        width: 100%;
+    }
+    /* Notification */
+    .notifi_container{
+        margin-top: 30px;
+        background-color: white;
+        height: 68.5%;
+        border-radius: 5px;
+    }
+
+/*      Sidebar      */
 @keyframes fadein{
     from {
         opacity: 100%;
@@ -47,6 +57,7 @@ body{
     border-radius: 5px;
     padding: 3px 3px 1px 3px;
     list-style: none;
+    margin: 0;
 }
     .side-bar li{
         text-align: center;
@@ -109,19 +120,46 @@ body{
     /* width: 103.8%; */
     width: 100%;
     height: 100%;
-    border-radius: 5px 0px 0px 0px;
-    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    /* border-radius: 5px 0px 0px 0px; */
+    border-radius: 5px;
+    /* box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset; */
 }
 
 /*              MEDIA QUERY                */
 /*   Mobile   */
 /***** Thiết bị có kích thước màn hình *****/
 @media (max-width: 1023px) {
+    /*      Header       */
+    /* Logo */
     .logo{
-        margin-top: 0px;
-        border-radius: 0px;
+        margin-top: 5px;
+        background-color: black;
+        padding: 0px;
+        border-radius: 5px;
+        text-align: center;
     }
-    
+    .logo a{
+        height: 100%;
+        display: block;
+    }
+    .logo img{
+        /* width: 10%; */
+        width: 50%;
+    }
+    /* Notification */
+    .notifi_container{
+        margin-top: 5px;
+        height: 93%;
+        border-radius: 5px;
+    }
+    /* Side bar */
+    /* #sidebarcontainermobile{
+        display: none;
+    } */
+    .side-bar li button{
+        padding: 40px 60px 40px 60px;
+    }
+
 }
 /*   Tablet   */
 /***** Thiết bị có kích thước màn hình >= 740px (màn từ Tablet trở lên) *****/
