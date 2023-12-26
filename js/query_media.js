@@ -1,7 +1,7 @@
 // Biến lấy height màn hình của người dùng 
 let user_screen_height = screen.availHeight;
 // Căn chỉnh height thay đổi theo các màn hình khác nhau
-document.getElementById("main").style.height = ((user_screen_height/100)*77.3) + 'px';
+document.getElementById("main").style.height = ((user_screen_height/100)*77) + 'px';
 
 //                  MEDIA QUERY
 //  Biến cho kích thước của màn hình tablet trở xuống
@@ -17,6 +17,7 @@ function changeHTML(x) {
         document.getElementById("header").innerHTML = header_for_mobile_tablet;
     //  Thay đổi html trong phần main
         document.getElementById("main").innerHTML = main_for_mobile_tablet;
+        document.getElementById("main").style.marginTop = '2px';
 
     } else { //             NẾU LÀ MÀN HÌNH MÁY TÍNH
 
@@ -24,6 +25,7 @@ function changeHTML(x) {
         document.getElementById("header").innerHTML = header_for_PC;
     //  Thay đổi html trong phần main
         document.getElementById("main").innerHTML = main_for_PC;
+        document.getElementById("main").style.marginTop = '6px';
     }
   }
 
