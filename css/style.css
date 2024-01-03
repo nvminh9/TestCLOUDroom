@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:wght@300;400;700&family=Nunito:wght@500;600;700&family=Roboto+Mono:wght@300;400;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+
 html{
     width: 100%;
     height: 100%;
@@ -5,6 +7,7 @@ html{
 *{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
 }
 body{
     width: 100%;
@@ -143,6 +146,123 @@ body{
     border-radius: 15px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 }
+.form-login input{
+    border: none;
+    padding: 15px;
+    color: #262624;
+    /* background: transparent; */
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px inset;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.form-login .btnContinue{
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    padding: 15px;
+    /* background-color: transparent; */
+    color: black;
+    margin-bottom: 20px;
+    cursor: pointer;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+    background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais);
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+/*          Create new Account CSS       */
+.createaccount{
+    border: 1px solid black ; 
+    /* margin-left: 181.5px;  */
+    border-radius: 6px;
+    /* width: 330.25px;  */
+    background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.createaccount .textcreateaccount{
+    font-size: 14px; 
+    text-align: center;
+}
+.form-login .btnCreateAcc{
+    border: none;
+    border-radius: 0px 6px 6px 0px;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+.form-login .btnContinue:hover{
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.59) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.form-login .btnCreateAcc:hover{
+    scale: .9;
+    border-radius: 6px;
+    margin-right: -12px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+/*          Forget Password CSS          */
+.forgetpass{
+    font-size: 14px; 
+    text-align: center; 
+    padding: 15px;
+}
+.forgetpass a{
+    color: blue;
+}
+/*          Other way login CSS         */
+.otherlogin{
+    text-align: center; 
+    border: 1px solid black ;
+    margin-bottom: 40px; 
+    border-radius: 6px;
+    /* width: 330.25px;  */
+    background-image: url(https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703808000&semt=ais); 
+    background-position: center; 
+    background-size: cover; 
+    background-repeat: no-repeat;
+}
+.otherlogin p{
+    font-size: 14px; 
+    width: 100%; 
+    padding-bottom: 10px; 
+    border-bottom: 1px dashed black;
+}
+.containerotherwaylogo{
+    padding-bottom: 10px;
+}
+.containerotherwaylogo a img{
+    width: 30px;
+    height: 30px;
+    margin: 2px;
+}
+.containerotherwaylogo a img:hover{
+    border-radius: 3px;
+    background-color: #80808036;
+    padding: 2px;
+}
+
+    
 
 /*              MEDIA QUERY                */
 /*   Mobile   */

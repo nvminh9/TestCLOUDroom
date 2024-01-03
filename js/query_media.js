@@ -5,7 +5,7 @@ document.getElementById("main").style.height = ((user_screen_height/100)*77) + '
 
 //                  MEDIA QUERY
 //  Biến cho kích thước của màn hình tablet trở xuống
-var x = window.matchMedia("(max-width: 1023px)")
+var x = window.matchMedia("(max-width: 1023px)");
 
 //              HÀM THAY ĐỔI HTML KHI THAY ĐỔI KÍCH THƯỚC MÀN HÌNH
 
@@ -18,6 +18,7 @@ function changeHTML(x) {
     //  Thay đổi html trong phần main
         document.getElementById("main").innerHTML = main_for_mobile_tablet;
         document.getElementById("main").style.marginTop = '2px';
+        // document.getElementById("main").
 
     } else { //             NẾU LÀ MÀN HÌNH MÁY TÍNH
 
